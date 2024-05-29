@@ -1,0 +1,30 @@
+@import 'variables';
+
+@import 'bg-image';
+@import 'footer';
+@import 'head';
+@import 'introduction';
+@import 'l-fv';
+@import 'l-owner-data';
+@import 'l-profile';
+@import 'logo';
+@import 'site-title';
+@import 'table';
+
+body {
+    color: $black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    // display: block;
+    max-width: 100%;
+}

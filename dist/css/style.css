@@ -1,0 +1,295 @@
+@charset "UTF-8";
+.bg-image {
+  background-image: url("../../src/img/fv.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8FCFD;
+}
+
+@media screen and (min-width: 768px), print {
+  .footer {
+    height: 150px;
+  }
+}
+.head {
+  position: fixed;
+  height: 70px;
+  padding: 25px 30px;
+}
+
+@media screen and (min-width: 768px), print {
+  .head {
+    height: 70px;
+    padding: 38px 50px 37px;
+  }
+}
+.introduction {
+  box-sizing: content-box;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.introduction__name {
+  position: relative;
+  margin-top: 77px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.introduction__name:after {
+  content: "(1998年)";
+  position: absolute;
+  left: 50%;
+  top: 49px;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.introduction__description {
+  margin-top: 66px;
+  font-family: Noto Sans JP;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #333333;
+}
+
+.l-fv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-owner-data {
+  margin-top: 89px;
+  margin-inline: auto;
+  max-width: 800px;
+  padding-inline: 30px;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 768px), print {
+  .l-owner-data {
+    padding-bottom: 120px;
+  }
+}
+.l-profile {
+  margin-top: 80px;
+  margin-inline: auto;
+  padding-inline: 60px;
+}
+
+@media screen and (min-width: 768px), print {
+  .l-profile {
+    margin-top: 120px;
+  }
+}
+.logo__ttk img {
+  display: block;
+  width: 117.38px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px), print {
+  .logo__ttk img {
+    width: 146.73px;
+    height: 25px;
+  }
+}
+.site-title {
+  width: 373px;
+  height: 280px;
+  padding-inline: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 9.92px;
+  box-shadow: 0px 0px 15px 0px rgba(218, 231, 238, 0.3019607843);
+  border-radius: 140px;
+}
+
+.site-title__sub-ttl {
+  color: #0093C9;
+  font-family: "Cormorant Garamond";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.site-title__ttl {
+  font-family: "Zen Kaku Gothic New";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px), print {
+  .site-title {
+    width: 770px;
+    height: 230px;
+  }
+  .site-title__ttl {
+    line-height: 64px;
+  }
+}
+.table {
+  border-collapse: collapse;
+}
+
+.table__row {
+  border-bottom: 1px solid #EBEBEB;
+}
+.table__inner .table__row:first-of-type {
+  border-top: 1px solid #EBEBEB;
+}
+
+.table__head {
+  padding-left: 18px;
+}
+
+.table__content {
+  padding-left: 22px;
+  padding-right: 16px;
+}
+
+.table__inner .table__row:nth-of-type(1) .table__content,
+.table__inner .table__row:nth-of-type(2) .table__content,
+.table__inner .table__row:nth-of-type(3) .table__content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.table__inner .table__row:nth-of-type(1) .table__head,
+.table__inner .table__row:nth-of-type(1) .table__content {
+  padding-top: 42px;
+  padding-bottom: 38px;
+}
+
+.table__inner .table__row:nth-of-type(2) .table__head,
+.table__inner .table__row:nth-of-type(2) .table__content {
+  padding-top: 42px;
+  padding-bottom: 51px;
+}
+
+.table__inner .table__row:nth-of-type(3) .table__head,
+.table__inner .table__row:nth-of-type(3) .table__content {
+  padding-top: 42px;
+  padding-bottom: 51px;
+}
+
+.table__inner .table__row:nth-of-type(4) .table__head,
+.table__inner .table__row:nth-of-type(4) .table__content {
+  padding-top: 52px;
+  padding-bottom: 68px;
+}
+
+.table__inner .table__row:nth-of-type(2) .table__head,
+.table__inner .table__row:nth-of-type(3) .table__head {
+  vertical-align: top;
+}
+
+@media screen and (min-width: 550px), print {
+  .table__head {
+    padding-left: 50px;
+  }
+  .table__content {
+    padding-left: 62px;
+    padding-right: 26px;
+  }
+}
+@media screen and (min-width: 768px), print {
+  .table__head {
+    padding-left: 30px;
+  }
+  .table__content {
+    padding-left: 159px;
+    padding-right: 23px;
+  }
+  .table__inner .table__row:nth-of-type(2) .table__head,
+  .table__inner .table__row:nth-of-type(2) .table__content,
+  .table__inner .table__row:nth-of-type(3) .table__head,
+  .table__inner .table__row:nth-of-type(3) .table__content,
+  .table__inner .table__row:nth-of-type(4) .table__head,
+  .table__inner .table__row:nth-of-type(4) .table__content {
+    padding-top: 54px;
+    padding-bottom: 51px;
+  }
+  .table__inner .table__row:nth-of-type(2) .table__head,
+  .table__inner .table__row:nth-of-type(3) .table__head {
+    vertical-align: middle;
+  }
+}
+/* text */
+.table__text--height {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.table__text--middle-l {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.table__text--middle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+body {
+  color: #0F0F0F;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,12 @@
+.head {
+    position: fixed;
+    height: 70px;
+    padding: 25px 30px;
+}
+
+@media screen and (min-width: 768px), print {
+    .head {
+        height: 70px;
+        padding: 38px 50px 37px;
+    }
+}

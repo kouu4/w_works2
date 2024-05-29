@@ -1,0 +1,46 @@
+.site-title {
+    width: 373px;
+    height: 280px;
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    gap: 9.92px;
+    box-shadow: 0px 0px 15px 0px #DAE7EE4D;
+    border-radius: 140px;
+}
+
+.site-title__sub-ttl {
+    color: $blue;
+    font-family: "Cormorant Garamond";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.site-title__ttl {
+    font-family: "Zen Kaku Gothic New";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px),
+print {
+    .site-title {
+        width: 770px;
+        height: 230px;
+    }
+
+    .site-title__ttl {
+        line-height: 64px;
+    }
+
+
+}

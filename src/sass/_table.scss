@@ -1,0 +1,128 @@
+.table {
+    border-collapse: collapse;
+}
+
+.table__row {
+    border-bottom: 1px solid $gray;
+
+    .table__inner &:first-of-type {
+        border-top: 1px solid $gray;
+    }
+}
+
+.table__head {
+    padding-left: 18px;
+}
+
+.table__content {
+    padding-left: 22px;
+    padding-right: 16px;
+}
+
+.table__inner .table__row:nth-of-type(1) .table__content,
+.table__inner .table__row:nth-of-type(2) .table__content,
+.table__inner .table__row:nth-of-type(3) .table__content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+
+.table__inner .table__row:nth-of-type(1) .table__head,
+.table__inner .table__row:nth-of-type(1) .table__content {
+    padding-top: 42px;
+    padding-bottom: 38px;
+}
+
+.table__inner .table__row:nth-of-type(2) .table__head,
+.table__inner .table__row:nth-of-type(2) .table__content {
+    padding-top: 42px;
+    padding-bottom: 51px;
+}
+
+.table__inner .table__row:nth-of-type(3) .table__head,
+.table__inner .table__row:nth-of-type(3) .table__content {
+    padding-top: 42px;
+    padding-bottom: 51px;
+}
+
+.table__inner .table__row:nth-of-type(4) .table__head,
+.table__inner .table__row:nth-of-type(4) .table__content {
+    padding-top: 52px;
+    padding-bottom: 68px;
+}
+
+.table__inner .table__row:nth-of-type(2) .table__head,
+.table__inner .table__row:nth-of-type(3) .table__head {
+    vertical-align: top;
+}
+
+@media screen and (min-width: 550px), print {
+    .table__head {
+        padding-left: 50px;
+    }
+    
+    .table__content {
+        padding-left: 62px;
+        padding-right: 26px;
+    }
+}
+
+@media screen and (min-width: 768px),
+print {
+
+    .table__head {
+        padding-left: 30px;
+    }
+    
+    .table__content {
+        padding-left: 159px;
+        padding-right: 23px;
+    }
+
+    .table__inner .table__row:nth-of-type(2) .table__head,
+    .table__inner .table__row:nth-of-type(2) .table__content,
+    .table__inner .table__row:nth-of-type(3) .table__head,
+    .table__inner .table__row:nth-of-type(3) .table__content,
+    .table__inner .table__row:nth-of-type(4) .table__head,
+    .table__inner .table__row:nth-of-type(4) .table__content {
+        padding-top: 54px;
+        padding-bottom: 51px;
+    }
+
+
+
+    .table__inner .table__row:nth-of-type(2) .table__head,
+    .table__inner .table__row:nth-of-type(3) .table__head {
+        vertical-align: middle;
+    }
+
+}
+
+
+/* text */
+.table__text--height {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.table__text--middle-l {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.table__text--middle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
